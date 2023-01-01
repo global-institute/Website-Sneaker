@@ -1,6 +1,6 @@
 ## Website-Sneaker
 
-- Nama Anggota Kelompok StrawhatPirates 🏴‍☠️
+# { Nama Anggota Kelompok StrawhatPirates 🏴‍☠️ }
 - M Maulana Yusuf R (1121130010)
 - Muhammad Surya Affandi (1121130034)
 - Rangga Muhamad Ramadhan (1121130158)
