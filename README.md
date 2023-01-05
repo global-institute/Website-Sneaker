@@ -40,3 +40,6 @@
 - Coba jalankan docker image yang anda buat di local docker machine ataupun docker playground
     - docker run -itd -p8100:80 (dockerhub_username)/sneakers:v1
 - Kemudian jalankan containers kalian di port 8100:80 dengan cara klik open in browser
+
+
+Apa aja
