@@ -16,7 +16,7 @@ LABEL   MAINTENER="Muhammad Surya Affandi" \
         NIM="1121130034" \
         KELAS="TI SE M 2021"
 
-LABEL   MAINTENER="Rangga Muhamad Ramdhan" \
+LABEL   MAINTENER="Rangga Muhamad Ramadhan" \
         NIM="1121130158" \
         KELAS="TI CN M 2021"
 
