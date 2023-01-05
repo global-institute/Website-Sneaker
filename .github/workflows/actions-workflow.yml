@@ -7,8 +7,12 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: build and tag image
+    - name: build and tag image rbesar
       run: docker build . --file Dockerfile --tag rbesar/sneakers:1.0
+    - name: build and tag image skymatzhu
+      run: docker build . --file Dockerfile --tag skymatzhu/sneakers:v1
     
-    - name: push to dockerhub
+    - name: push to dockerhub rbesar
       run: docker login -u ${{secrets.HUB_USERNAME}} -p ${{secrets.HUB_SECRET}} && docker push rbesar/sneakers:1.0
+    - name: push to dockerhub skymatzhu
+      run: docker login -u ${{secrets.DOCKERHUB_USERNAME}} -p ${{secrets.DOCKERHUB_SECRET}} && docker push skymatzhu/sneakers:v1
